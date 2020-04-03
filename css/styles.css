@@ -1,0 +1,157 @@
+body {
+	background-color:#61122f;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border: 0;
+	border-radius:0; 
+}
+#logo-img {
+	background: url('../images/logo.jpeg');
+	width: 240px;
+	height: 150px;
+	margin:5px 15px 10px 5px;
+	border-radius: 50%;
+	margin-left: -150px;
+	}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 3em;
+    text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	line-height: .75;
+  	margin-top: 25px;
+  	margin-bottom: 0;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+.navbar-brand p {
+	margin:10px 10px 20px 50px;
+	text-transform: uppercase;
+	font-size: .60em;
+
+}
+.btn-toggler-icon {
+	height: 1px;
+	width: 25px;
+	margin: 6px 0;
+	display: block;
+	background-color: black;
+}
+
+#nav-list {
+	margin-top: 10px;
+	color: maroon;
+	text-align: center;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.6em;
+}
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo-medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin:5px 15px 10px 5px;
+	border-radius: 50%;
+	margin-left: -150px;
+
+  }
+  .navbar-brand h1 {
+  	font-size: 2em;
+  	margin-top: 15px;
+  	margin-bottom: 0;
+  	line-height: .75;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ .navbar-brand h1 {
+  	font-size: 2em;
+  	margin-top: 15px;
+  	margin-bottom: 20px;
+  	line-height: .10;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.navbar-brand h1 {
+font-size: 2em;
+  	margin-top: 10px;
+  	margin-bottom: 0;
+  	line-height: .75;
+  }
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+#collapsable-na a {
+	font-size: 2em;
+}
+
+}
