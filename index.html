@@ -26,16 +26,20 @@
             <span>Tripadvisor Certified</span>
           </p>
         </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mayank" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
       </div>
-      <div class="navbar-collapse">
+      <div id = "mayank" class="navbar-collapse collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
+              <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li >
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu </a>
             </li>
@@ -66,10 +70,53 @@
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* Contact Us</div>
+<div id ="main-content" class="container">
+  <div class="jumbotron">
+    <img src="images/rest-768.jpg" class="img-responsive visible-xs">
+  </div>
+  <div id=home-tiles class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://goo.gl/maps/W33bypKZnVXH4X7Q6" target="_blank"><div id="map-tile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.5744361345837!2d78.0468220147766!3d27.16967685552184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397471e5e7d92191%3A0xe958da82eadea922!2s25%20Hours%20Hangout%20Cafe!5e0!3m2!1sen!2sin!4v1586009382338!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+        <span>Map</span>
+      </div>
+    </a>
+    </div>
+  </div>
+</div>
 
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="hours" class="col-sm-4">
+      <span>Hours:</span><br>
+      Sun - Thu : 8am to 8pm<br>
+      Fri : Closed<br>
+      Sat - 8am to 8pm 
+      <hr class="visible-xs"></section>
+      <section id="address" class="col-sm-4">
+        <span>Address:</span><br>
+        Near Taj Nature Walk, infront of Hotel Oberoi Amarvilas, Taj East Gate, Agra (282001).
+        <hr class="visible-xs">
+      </section>
+      <section id="testimonials" class="col-sm-4">
+        <p>"The best Indian Restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+        <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        <hr class="visible-xs">
+      </section>
+    </div>
+    <div class="text-center">&copy; 25 Hours Hangout Cafe</div>
+  </div>
+</footer>
   
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="jquery/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
